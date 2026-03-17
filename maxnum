@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNP8TB5WwGTfp1lYvJsruq7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/elledani949/First-Repository/blob/main/maxnum\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Ask user to input three numbers\n",
+        "num1 = int(input(\"Enter first number: \"))\n",
+        "num2 = int(input(\"Enter second number: \"))\n",
+        "num3 = int(input(\"Enter third number: \"))\n",
+        "\n",
+        "if num1 > num2 and num1 > num3:\n",
+        "  print(\"The biggest number is\", num1)\n",
+        "elif num2 > num1 and num2 > num3:\n",
+        "  print(\"The biggest number is\", num2)\n",
+        "elif num3 > num1 and num3 > num2:\n",
+        "  print(\"The biggest number is\", num3)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "10xo4jYpOTbE",
+        "outputId": "b05397ce-5f48-419b-d7af-80423d042f32"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 67\n",
+            "Enter second number: 68\n",
+            "Enter third number: 69\n",
+            "The biggest number is 69\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
