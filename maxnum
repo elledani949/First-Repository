@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNP8TB5WwGTfp1lYvJsruq7",
+      "authorship_tag": "ABX9TyMDsGLJNZg6AcBwN2PWdR2O",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -34,6 +34,7 @@
         "num2 = int(input(\"Enter second number: \"))\n",
         "num3 = int(input(\"Enter third number: \"))\n",
         "\n",
+        "# Input numbers\n",
         "if num1 > num2 and num1 > num3:\n",
         "  print(\"The biggest number is\", num1)\n",
         "elif num2 > num1 and num2 > num3:\n",
