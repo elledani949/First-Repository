@@ -39,29 +39,13 @@
         "elif num2 > num1 and num2 > num3:\n",
         "  print(num2, \"is greater than\", num1, \"and\", num3)\n",
         "elif num3 > num1 and num3 > num2:\n",
-        "  print(num3, \"is greater than\", num1, \"and\", num2)\n",
-        ""
+        "  print(num3, \"is greater than\", num1, \"and\", num2)\n"
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "10xo4jYpOTbE",
-        "outputId": "64a46bed-28a8-4485-86d1-3c3a0e156fed"
+        "id": "10xo4jYpOTbE"
       },
-      "execution_count": 13,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Enter first number: 67\n",
-            "Enter second number: 69\n",
-            "Enter third number: 68\n",
-            "69 is greater than 67 and 68\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
